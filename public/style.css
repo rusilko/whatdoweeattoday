@@ -1,0 +1,105 @@
+body {
+  font-family: 'Ubuntu Condensed', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  width: 960px;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #008;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.spacer h1 {
+  margin-top: 36px;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+.spacer h2 {
+  margin-top: 30px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  width: 600px;
+  margin: 50px auto 40px;
+  padding: 15px;
+  background: #EAF1EE;
+  border-radius: 10px;
+}
+
+.phone, .url {
+  margin: 10px 0px;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.phone:before {
+  content: "\2706";
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.comments {
+  text-align: center;
+  font-size: 20px;
+}
+
+#map {
+  margin: 0px auto;
+  width: 700px;
+  height: 400px;
+}
+
+nav {
+  overflow: hidden;
+  margin: 40px auto 30px;
+  width: 800px;
+}
+
+.spacer nav {
+  width: 850px;
+}
+
+nav a {
+  padding: 15px;
+  font-size: 36px;
+}
+
+nav a:first-child {
+  float: left;
+}
+
+nav a:last-child {
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 900px;
+  border-top: 1px solid #aaa;
+  padding: 8px;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  text-align: right;
+  color: #666;
+}

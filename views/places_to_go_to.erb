@@ -1,0 +1,58 @@
+<h1>Why don't we go to</h1>
+<h2>
+  <% if @item.url %>
+    <a href="<%= @item.url %>"><%= @item.name %></a>
+  <% else %>
+    <%= @item.name %>
+  <% end %>
+</h2>
+
+<div id="map"></div>
+
+<nav>
+  <a href="">Got anything else?</a>
+  <a href="/order">Anyone ordering something?</a>
+</nav>
+
+<script type="text/javascript"
+     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBxaOqDn2ySh8-wKBcaDY2gm7YLTiIuk8o&amp;sensor=false"></script>
+
+<script type="text/javascript">
+  (function() {
+    var origin = new google.maps.LatLng(50.058433, 19.926056);
+    var destination = new google.maps.LatLng(<%= @item.lat %>, <%= @item.lng %>);
+
+    var mapDiv = document.getElementById('map');
+    var map = new google.maps.Map(mapDiv, {
+      center: origin,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var homeMarker = new google.maps.Marker({
+      map: map,
+      position: origin,
+      icon: '/workoffice.png'
+    });
+    var targetMarker = new google.maps.Marker({
+      map: map,
+      position: destination,
+      icon: '/restaurant.png'
+    });
+
+    var directionsService = new google.maps.DirectionsService();
+    directionsService.route({
+      origin: origin,
+      destination: destination,
+      travelMode: google.maps.TravelMode.WALKING
+    }, function(result, status) {
+      if (status == google.maps.DirectionsStatus.OK) {
+        var directionsRenderer = new google.maps.DirectionsRenderer({ suppressMarkers: true });
+        directionsRenderer.setMap(map);
+        directionsRenderer.setDirections(result);
+      } else {
+        map.setCenter(destination);
+      }
+    });
+  })();
+</script>

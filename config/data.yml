@@ -1,0 +1,227 @@
+places_to_order_from:
+  -
+    name: Fabryka Pizzy
+    url: http://www.fabrykapizzy.pl
+    phones:
+      - 12 445 68 68
+      - 12 445 64 25
+      - 530 040 004
+  -
+    name: Calipso
+    url: http://calipso-catering.pl
+    phones:
+      - 12 357 50 14
+      - 509 482 226
+  -
+    name: Przysmak
+    url: http://przysmak.net
+    phones:
+      - 12 294 03 30
+      - 602 47 58 80
+  -
+    name: Czesiek (Cesare Ristorante)
+    url: http://www.cesareristorante.pl
+    phones:
+      - 12 263 80 30
+  -
+    name: Królestwo Pierożka
+    url: http://www.krolestwo-pierozka.pl
+    phones:
+      - 12 431 95 41
+      - 668 823 275
+  -
+    name: Chińczyk (Phuong Dong)
+    url: http://www.lunchmaster.pl/krakow/phuong-dong-lea
+    phones:
+      - 12 637 73 33
+  -
+    name: Burrito Buffet
+    url: http://www.burritobuffet.com.pl
+    phones:
+      - 12 633 04 09
+      - 519 323 808
+  -
+    name: Genji Sushi
+    url: http://genji.pl
+    phones:
+      - 12 429 59 59
+  -
+    name: Bombaj Tandoori
+    url: http://www.restauracjabombaj.pl
+    phones:
+      - 12 422 37 97
+  -
+    name: Subway
+    url: http://www.subway-galeriakrakowska.pl
+    phones:
+      - 12 628 71 71
+  -
+    name: Mazarino
+    url: http://www.mazarino.pl
+    phones:
+      - 12 423 23 22
+  -
+    name: Pizzeria Tivoli
+    url: http://www.tivolikrakow.pl
+    phones:
+      - 12 431 15 26
+  -
+    name: Hot Chili
+    url: http://www.lunchmaster.pl/krakow/hot-chili
+  -
+    name: Haiku Sushi
+    url: http://www.lunchmaster.pl/krakow/haiku-sushi-centrum
+  -
+    name: Magneto (Magenta Catering)
+    url: http://www.lunchmaster.pl/krakow/magenta-catering
+  -
+    name: Yam Yam
+    url: http://www.lunchmaster.pl/krakow/yam-yam
+  -
+    name: Pizzeria Capri
+    url: http://www.lunchmaster.pl/krakow/capri-new-pizzeria
+  -
+    name: Miodowe Smaki
+    url: http://www.lunchmaster.pl/krakow/miodowe-smaki
+  -
+    name: Dominium
+    url: http://www.lunchmaster.pl/krakow/dominum-rynek-glowny
+  -
+    name: Sushi 77
+    url: http://www.sushi77.com
+    phones:
+      - 12 421 10 94
+
+places_to_go_to:
+  -
+    name: Smakołyki
+    url: http://www.facebook.com/Smakolyki
+    lat: 50.061532
+    lng: 19.931731
+  -
+    name: Panorama
+    url: http://panoramaklub.eu
+    lat: 50.05566
+    lng: 19.9278
+  -
+    name: 8 Aleja
+    url: http://www.8aleja.pl
+    lat: 50.05556
+    lng: 19.926822
+  -
+    name: Chińczyk za Mostem (Hoang Hai)
+    lat: 50.053113
+    lng: 19.929614
+  -
+    name: Polakowski
+    url: http://www.polakowski.com.pl
+    lat: 50.059282
+    lng: 19.937185
+  -
+    name: Kuranty
+    url: http://www.kuranty.ostoyapalace.pl/kuranty/
+    lat: 50.059797
+    lng: 19.928084
+  -
+    name: Chimera
+    url: http://www.chimera.com.pl
+    lat: 50.061701
+    lng: 19.934769
+  -
+    name: Yummie
+    url: http://www.yummie.pl
+    lat: 50.061271
+    lng: 19.935542
+  -
+    name: Karma
+    url: http://www.facebook.com/karmaorganiccoffee
+    lat: 50.063439
+    lng: 19.930681
+  -
+    name: Percheron
+    url: http://www.percheron.pl
+    lat: 50.056027
+    lng: 19.928276
+  -
+    name: Pod Sokołem
+    url: http://podsokolem.com
+    lat: 50.059835
+    lng: 19.927009
+  -
+    name: Mięta
+    url: http://mietarestobar.pl
+    lat: 50.06374
+    lng: 19.928674
+  -
+    name: Gospoda Koko
+    url: http://www.facebook.com/gospodakoko
+    lat: 50.060312
+    lng: 19.934617
+  -
+    name: Gruzińskie Chaczapuri
+    url: http://www.chaczapuri.pl
+    lat: 50.063615
+    lng: 19.940321
+  -
+    name: Del Papa
+    url: http://www.delpapa.pl
+    lat: 50.063909
+    lng: 19.936632
+  -
+    name: Greenway
+    url: http://www.greenway.pl
+    lat: 50.061439
+    lng: 19.941461
+  -
+    name: Aquarius (barka)
+    url: http://www.aquariuskrakow.pl
+    lat: 50.05477831660158
+    lng: 19.928888082504272
+  -
+    name: Fabryka Pizzy
+    url: http://www.fabrykapizzy.pl
+    lat: 50.063253
+    lng: 19.937414
+  -
+    name: Pizza Garden
+    url: http://www.pizzagarden.pl
+    lat: 50.052504
+    lng: 19.929181
+  -
+    name: Sioux
+    lat: 50.061035
+    lng: 19.936161
+  -
+    name: Bordo
+    url: http://www.bordo-krakow.pl
+    lat: 50.060492
+    lng: 19.935452
+  -
+    name: Pizzeria Tivoli
+    url: http://www.tivolikrakow.pl
+    lat: 50.060097
+    lng: 19.939344
+  -
+    name: Bar Wegetariański Vega
+    url: http://vegarestauracja.pl
+    lat: 50.063428
+    lng: 19.928977
+  -
+    name: Bar Mleczny Flisak ;)
+    url: http://www.jubilat.com.pl/pl/80/5/22/bar-mleczny-FLISAK
+    lat: 50.05519
+    lng: 19.926961
+  -
+    name: Budka z zapiekankami
+    lat: 50.058575
+    lng: 19.924977
+  -
+    name: Pizzeria Cyklop
+    url: http://www.pizzeriacyklop.pl
+    lat: 50.061461
+    lng: 19.941619
+  -
+    name: Prego
+    url: http://www.restauracja-prego.pl
+    lat: 50.063558
+    lng: 19.931115

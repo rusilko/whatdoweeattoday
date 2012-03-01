@@ -1,0 +1,23 @@
+<h1>Why don't we order from</h1>
+<h2>
+  <% if @item.url %>
+    <a href="<%= @item.url %>"><%= @item.name %></a>
+  <% else %>
+    <%= @item.name %>
+  <% end %>
+</h2>
+
+<div class="contact">
+  <% if @item.phones %>
+    <p class="phone"><%= @item.phones.join(" / ") %></p>
+  <% end %>
+
+  <% if @item.url %>
+    <p class="url"><a href="<%= @item.url %>"><%= @item.url %></a></p>
+  <% end %>
+</div>
+
+<nav>
+  <a href="">Got anything else?</a>
+  <a href="/spacer">Spacer?</a>
+</nav>

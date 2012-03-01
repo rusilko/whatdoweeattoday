@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel='stylesheet' type='text/css'
+      href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed&amp;subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css'
+      href='http://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin,latin-ext'>
+  </head>
+  <body class="<%= request.path.split('/').last %>">
+    <%= yield %>
+    <footer>
+      &copy; 2012 <a href="http://lunarlogicpolska.com">Lunar Logic</a> &bull;
+      Inspired by <a href="http://wherethefuckshouldigofordrinks.com">wherethefuckshouldigofordrinks.com</a> &bull;
+      Icons by <a href="http://mapicons.nicolasmollet.com">Map Icons Collection</a>
+    </footer>
+  </body>
+</html>
