@@ -92,6 +92,8 @@ places_to_order_from:
     phones:
       - 12 421 10 94
 
+# tip: use http://www.itouchmap.com/latlong.html to quickly find the coordinates of a restaurant
+
 places_to_go_to:
   -
     name: Smakołyki
