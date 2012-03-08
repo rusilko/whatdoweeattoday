@@ -232,3 +232,8 @@ places_to_go_to:
     url: http://www.gastronauci.pl/16702-jagiellonka-lunch-bar-krakow
     lat: 50.06127
     lng: 19.92201
+  -
+    name: Phoenix Asia
+    url: http://www.gastronauci.pl/16617-phoenix-asia-krakow
+    lat: 50.05437
+    lng: 19.92472
