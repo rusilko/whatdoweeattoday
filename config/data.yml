@@ -227,3 +227,8 @@ places_to_go_to:
     url: http://www.restauracja-prego.pl
     lat: 50.063558
     lng: 19.931115
+  -
+    name: Jagiellonka
+    url: http://www.gastronauci.pl/16702-jagiellonka-lunch-bar-krakow
+    lat: 50.06127
+    lng: 19.92201
