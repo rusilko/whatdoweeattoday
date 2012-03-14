@@ -242,3 +242,8 @@ places_to_go_to:
     url: http://www.wokrestaurant.pl/
     lat: 50.06266
     lng: 19.93754
+  -
+    name: Moaburger
+    url: http://moaburger.com/
+    lat: 50.06144
+    lng: 19.94154
