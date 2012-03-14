@@ -237,3 +237,8 @@ places_to_go_to:
     url: http://www.gastronauci.pl/16617-phoenix-asia-krakow
     lat: 50.05437
     lng: 19.92472
+  -
+    name: Wok Restaurant
+    url: http://www.wokrestaurant.pl/
+    lat: 50.06266
+    lng: 19.93754
